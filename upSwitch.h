@@ -5,7 +5,7 @@
 
 class upSwitch : public uPlugin {
 private:
-  const Switch **switches;
+  Switch **switches;
 
 public:
   upSwitch(Switch **switches) : switches(switches) {}
